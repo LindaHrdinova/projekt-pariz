@@ -1,6 +1,92 @@
-html { box-sizing: border-box; }
-*, ::before, ::after { box-sizing: inherit; }
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+::before,
+::after {
+  box-sizing: inherit;
+}
 
 body {
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 20px;
+  line-height: 1.4;
+  background-color: #cde4f9;
+}
 
+h1,
+h2,
+h3 {
+  font-family: "Playfair Display", serif;
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: 48px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 32px;
+}
+
+h3 {
+  font-size: 24px;
+  color: #dc6aa1;
+  margin-top: 48px;
+}
+
+section {
+  max-width: 900px;
+  background-color: #ffffff;
+  padding: 30px 50px;
+  border-radius: 12px;
+  margin-inline: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+img {
+  border-radius: 8px;
+}
+
+.img-paris {
+  display: block;
+  margin-inline: auto;
+  border-radius: 50%;
+  height: 300px;
+}
+
+
+.img-left {
+  float: left;
+  width: 300px;
+  height: 225px;
+  margin-right: 20px;
+}
+
+.img-right {
+  float: right;
+  width: 300px;
+  height: 225px;
+  margin-left: 20px;
+}
+
+.autor {
+  color: #dc6aa1;
+  text-align: center;
+}
+
+.perex {
+  color: #808080;
+  font-size: 24px;
+  text-align: center;
+}
+
+.img-velky {
+  width: 100%;
+  margin: 20px 0;
 }
